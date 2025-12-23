@@ -7,7 +7,7 @@ int main() {
 	broj = malloc(sizeof(int));
 
 	while (1) {
-		printf("Unesi broj: ");
+		printf("Unesi br: ");
 		scanf_s("%d", broj);
 		printf("Uneli ste broj: %d\n", *broj);
 	}
